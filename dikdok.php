@@ -1,4 +1,14 @@
 <?php
+
+Class komentārs{
+  private $id;
+  private $video_id;
+  private $autora_id;
+  public $teksts;
+}
+?>
+<?php
+
 class Video {
     public $id;
     public $url;
@@ -52,3 +62,5 @@ echo $lietotajs1->info();
 
 // Mainīt paroli
 
+
+?>
